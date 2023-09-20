@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form-Html</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Lütfen Formu Eksiksiz Doldurunuz.</h1>
+    <!-- <div>
+      <a href="https://clarusway.com" target="_blank">
+        <img
+          src="https://cdn.pixabay.com/photo/2014/09/05/18/32/old-books-436498_1280.jpg"
+          width="200"
+          alt="resim"
+        />
+      </a>
+      <a
+        href="https://cdn.pixabay.com/photo/2015/11/19/21/10/glasses-1052010_640.jpg"
+        download=""
+        ><img
+          src="https://cdn.pixabay.com/photo/2015/11/19/21/10/glasses-1052010_640.jpg"
+          width="200"
+          alt=""
+      /></a>
+      <a href="mailto:mbyilmazer38@gmail.com">Mail atmak için tıklayınız</a>
+      <a href="tel:+90 535 9751245">Aramak için tıklayınız</a>
+    </div> -->
+
+    <hr />
+    <form>
+      <section class="section1">
+        <h3>Hesap Bilgileriniz</h3>
+        <div>
+          <label for="username">Kullanıcı Adı </label>
+          <span>:</span>
+          <input
+            type="text"
+            id="username"
+            name="username"
+            placeholder="Kullanıcı adınızı giriniz"
+            required
+          />
+        </div>
+        <div>
+          <label for="email">Eposta </label>
+          <span>:</span>
+          <input
+            type="text"
+            id="email"
+            name="email"
+            placeholder="Email giriniz
+        "
+            required
+          />
+        </div>
+        <div>
+          <label for="password">Password </label>
+          <span>:</span>
+          <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder="Password giriniz
+        "
+          />
+        </div>
+      </section>
+      <section class="section2">
+        <h3>Kişisel Bilgileriniz</h3>
+        <div>
+          <label for="firstname"> Ad</label>
+          <span>:</span>
+          <input
+            type="text"
+            id="firstname"
+            name="firstname"
+            placeholder=" Adınızı giriniz"
+          />
+        </div>
+        <div>
+          <label for="sirname">Soyad </label>
+          <span>:</span>
+          <input
+            type="text"
+            id="sirname"
+            name="sirname"
+            placeholder="Soyadı giriniz
+        "
+          />
+        </div>
+        <div>
+          <label for="sehir">Şehir </label>
+          <span>:</span>
+          <select name="sehir" id="sehir">
+            <option value="bos" selected disabled>Seciniz</option>
+            <option value="kayseri">Kayseri</option>
+            <option value="istanbul" >İstanbul</option>
+            <option value="izmir">İzmir</option>
+            <option value="diyarbakır">Diyarbakır</option>
+          </select>
+        </div>
+<div>
+        <label for="hobi">Hobileriniz</label>
+            <span>:</span>
+            <input type="checkbox" name="sinema" id="sinema">
+            <label for="sinema">Sinema</label>
+              <input type="checkbox" name="gezmek" id="gezmek">
+            <label for="gezmek">Gezmek</label>
+            <input type="checkbox" name="spor" id="spor">
+            <label for="spor">Spor</label>
+              <input type="checkbox" name="kitap" id="kitap">
+            <label for="kitap">Kitap</label>
+        </div>
+      </section>
+    </form>
+  </body>
+</html>
